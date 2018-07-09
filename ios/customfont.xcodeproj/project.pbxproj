@@ -36,6 +36,7 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		3E536F38029B43FBB8104F20 /* vincHand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADB3C8FF529242BFB6CBEF20 /* vincHand.ttf */; };
+		13ED590116204B9FA7140DA3 /* MyFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E7F08ED4B417389291E44 /* MyFont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +257,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADB3C8FF529242BFB6CBEF20 /* vincHand.ttf */ = {isa = PBXFileReference; name = "vincHand.ttf"; path = "../assets/fonts/vincHand.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A0E7F08ED4B417389291E44 /* MyFont.ttf */ = {isa = PBXFileReference; name = "MyFont.ttf"; path = "../assets/fonts/MyFont.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +491,7 @@
 			isa = "PBXGroup";
 			children = (
 				ADB3C8FF529242BFB6CBEF20 /* vincHand.ttf */,
+				3A0E7F08ED4B417389291E44 /* MyFont.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				3E536F38029B43FBB8104F20 /* vincHand.ttf in Resources */,
+				13ED590116204B9FA7140DA3 /* MyFont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

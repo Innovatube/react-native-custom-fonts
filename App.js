@@ -6,6 +6,8 @@
 
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View } from "react-native";
+import MyFontIcon, { MyFontIcons } from "./MyFontIcon";
+
 
 export default class customfont extends Component {
   render() {
@@ -14,8 +16,14 @@ export default class customfont extends Component {
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
+        <Text style={{margin: 10, fontSize: 15, textAlign: 'left'}}>
+          <MyFontIcon>{MyFontIcons.album}</MyFontIcon>
+        </Text>
+        <Text style={{margin: 10, textAlign: 'left'}}>
+          <MyFontIcon style={{margin: 10, fontSize: 45, textAlign: 'center'}}>{MyFontIcons.adminAppearance}</MyFontIcon>
+        </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+            To get started, edit index.ios.js
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{"\n"}
@@ -45,7 +53,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "#333333",
     marginBottom: 5
-  }
+  },
 });
 
 AppRegistry.registerComponent("customfont", () => customfont);
